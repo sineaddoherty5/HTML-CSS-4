@@ -12,11 +12,21 @@ h1 {
     text-align: center;
 }
 
+ul {
+    list-style-type: none;
+    padding: 5px;
+}
+
 header {
     background-color: hotpink;
     padding: 10px 0px 10px 0px;
     
     
+}
+
+.container-navigation {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
