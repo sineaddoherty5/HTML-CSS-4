@@ -35,6 +35,15 @@ header {
     margin-left: auto;
 }
 
+li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    margin: 0px 3px;
+    border: 1px solid limegreen;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
 /* section one flex grow and shrink */
 
 .section-one {
@@ -60,7 +69,7 @@ header {
     background-color: lightgreen;
     
     height: 200px;
-    flex: 1 1 auto;
+    flex: 2 1 auto;
 }
 
 .box3 {
