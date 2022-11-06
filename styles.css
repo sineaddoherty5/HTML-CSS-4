@@ -27,8 +27,9 @@ header {
 .container-navigation {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-between;
 }
-
 
 /* section one flex grow and shrink */
 
